@@ -148,10 +148,10 @@ namespace Array
             menu = string.Format($"~~~ CUSTOMER MANAGEMENT ~~~\n1. ADD CUSTOMER\n2. UPDATE CUSTOMER\n3. DELETE CUSTOMER\n4. SEARCH BY NAME\nPRESS ANY OTHER KEY TO EXIT\n");
             int size = GetData.getNumber("Enter the size of Customer Array");
             mgr = CustomerFactoryComponent.GetComponent(size);
-            mgr.AddCustomer(new Customer { CustomerID = 123, CustomerName = "cvp", Address = "pkd", Salary = 12000 });
-            mgr.AddCustomer(new Customer { CustomerID = 124, CustomerName = "jk", Address = "hyd", Salary = 15000 });
-            mgr.AddCustomer(new Customer { CustomerID = 125, CustomerName = "ry", Address = "jrg", Salary = 13500 });
-            mgr.AddCustomer(new Customer { CustomerID = 126, CustomerName = "raj", Address = "in", Salary = 12800 });
+            mgr.AddCustomer(new Customer { CustomerID = 123, CustomerName = "Aneena", Address = "Tvm", Salary = 12000 });
+            mgr.AddCustomer(new Customer { CustomerID = 125, CustomerName = "Deva", Address = "Kollam", Salary = 15000 });
+            mgr.AddCustomer(new Customer { CustomerID = 126, CustomerName = "Rejith", Address = "Alapuzha", Salary = 13500 });
+            mgr.AddCustomer(new Customer { CustomerID = 128, CustomerName = "Hridya", Address = "Kochi", Salary = 12800 });
         }
 
         static void Main(string[] args)
